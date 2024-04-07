@@ -46,6 +46,7 @@ def start():
 
     show_rental_cost(daily_price*days_no)
     show_balance(customer.balance, owner.balance)
+    print
 
 
 if __name__ == '__main__':
